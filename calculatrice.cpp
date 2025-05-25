@@ -17,7 +17,7 @@ int main()
 	switch (nb)
 		{
 		    case 1:
-				printf ("vous avez choisir l'addition \n");
+				printf ("vous avez choisit l'addition comme option\n");
 					printf("entrer un nombre n : ");
 	scanf("%d",&n);
 	printf("entrer un nombre m :");
@@ -26,7 +26,7 @@ int main()
 	printf("votre somme est de : %d",s);
 	break;
 	case 2:
-				printf ("vous avez choisir la soustraction\n");
+				printf ("vous avez choisit la soustraction comme option\n");
 					printf("entrer un nombre n : ");
 	scanf("%d",&n);
 	printf("entrer un nombre m :");
@@ -35,7 +35,7 @@ int main()
 	printf("votre soustraction est  : %d",s);
 	break;
 	case 3:
-		printf ("vous avez choisir la division\n");
+		printf ("vous avez choisit la division comme option\n");
 			printf("entrer un nombre n : ");
 	scanf("%d",&n);
 		do{
@@ -51,7 +51,7 @@ int main()
 		break;
 		
 	case 4:
-				printf ("vous avez choisir la multiplication\n");
+				printf ("vous avez choisit la multiplication comme option\n");
 					printf("entrer un nombre n : ");
 	scanf("%d",&n);
 	printf("entrer un nombre m :");
@@ -60,7 +60,7 @@ int main()
 	printf("votre produit est de : %d",p);
 		break;
 	case 5:
-				printf ("vous avez choisir le caclcul du modulo \n");
+				printf ("vous avez choisit le caclcul du modulo comme option\n");
 					printf("entrer un nombre n : ");
 	scanf("%d",&n);
 	printf("entrer un nombre m :");
@@ -69,7 +69,7 @@ int main()
 	printf("votre modulo est de : %d",mod);
 	break;
 	case 6:
-					printf ("vous avez choisir le factoriel\n");
+					printf ("vous avez choisit le factoriel comme option\n");
 						printf("entrer un nombre n : ");
 		scanf("%d",&n);
 			s = 1;
@@ -81,7 +81,7 @@ int main()
 		break;
 	
 	case 7:
-		printf ("vous avez choisi la puissance\n");
+		printf ("vous avez choisit la puissance comme option\n");
 		printf("Entrez la valeur de n : ");
 		scanf("%d",&n);
 		printf("Entrez la valeur de la puissance de n : ");
