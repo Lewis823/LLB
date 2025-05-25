@@ -99,7 +99,7 @@ int main()
 		printf("Merci d'avoir utiliser notre programme");
 		break;
 	default:
-		printf("-----------Aucune entree fin du programme--------------");
+		printf("-----------No entry, end of program!--------------");
 		break;
 		
 		
